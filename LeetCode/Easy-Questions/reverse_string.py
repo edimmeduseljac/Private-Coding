@@ -1,7 +1,8 @@
-s = ["h","e","l","l","o"]
+s = ["h", "e", "l", "l", "o"]
 
-#Einfachste Variante: 
-#s.reverse()
+# Einfachste Variante:
+# s.reverse()
+
 
 def reverseString():
     index = 0
@@ -12,7 +13,7 @@ def reverseString():
         index -= 1
 
     index2 = 0
-    for i in range(int(len(s)/2)):
+    for i in range(int(len(s) / 2)):
         s.remove(s[index2])
         index2 += 1
     print(s)

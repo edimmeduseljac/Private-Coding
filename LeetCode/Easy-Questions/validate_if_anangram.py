@@ -1,14 +1,15 @@
 s = "nagaram"
 t = "nagaram"
 
-class Solution: 
 
+class Solution:
     def validateAnangram():
         if len(s) == len(t):
             if sorted(s) == sorted(t):
                 print("true")
-            else: 
+            else:
                 print("false")
-        else: 
+        else:
             print("false")
+
     validateAnangram()
