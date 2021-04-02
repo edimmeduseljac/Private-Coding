@@ -1,0 +1,3 @@
+check50 --> Checking your code with tests
+style50 --> Checking the style of your code
+help50  --> Helping you compiling your code
