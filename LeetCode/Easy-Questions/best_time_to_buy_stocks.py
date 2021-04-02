@@ -1,3 +1,6 @@
+a = []
+
+
 def getInputAndConvert():
     inputConsole = input()
 

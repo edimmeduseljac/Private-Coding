@@ -3,6 +3,7 @@ k = 0
 
 
 class Solution:
+    @staticmethod
     def getNumbers():
         inputConsole = input("Enter the numbers you want to rotate: ")
 
@@ -18,6 +19,7 @@ class Solution:
 
     getNumbers()
 
+    @staticmethod
     def getRotateCount():
         inputConsole = int(
             input("Enter the number of times you want to rotate the entered numbers: ")
@@ -27,6 +29,7 @@ class Solution:
 
     getRotateCount()
 
+    @staticmethod
     def rotateArray():
         x = 0
         while x < k:

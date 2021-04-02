@@ -3,6 +3,7 @@ t = "nagaram"
 
 
 class Solution:
+    @staticmethod
     def validateAnangram():
         if len(s) == len(t):
             if sorted(s) == sorted(t):

@@ -8,6 +8,7 @@ indexOutput = 0
 
 
 class Solution:
+    @staticmethod
     def findIntersection():
 
         global indexNums1

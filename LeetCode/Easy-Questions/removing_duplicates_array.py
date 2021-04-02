@@ -2,6 +2,7 @@ a = []
 
 
 class Solution:
+    @staticmethod
     def getInputAndConvert():
         inputConsole = input()
 
@@ -21,6 +22,7 @@ class Solution:
         "------------------------------------------------------------------------------"
     )
 
+    @staticmethod
     def sortInArray():
         print("Array:")
         index = 0
@@ -40,6 +42,7 @@ class Solution:
         "------------------------------------------------------------------------------"
     )
 
+    @staticmethod
     def sortInSet():
         print("Set:")
         index2 = 0

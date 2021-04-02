@@ -3,6 +3,7 @@ node = -3
 
 
 class Solution:
+    @staticmethod
     def deleteNodeInLinkedList():
         index = 0
         for i in range(len(head)):

@@ -5,6 +5,7 @@ class Solution:
 
     global nums
 
+    @staticmethod
     def getNumbers():
         inputConsole = input("Enter the numbers to check: ")
 
@@ -20,6 +21,7 @@ class Solution:
 
     getNumbers()
 
+    @staticmethod
     def move_zeros():
         index = 0
         for i in range(len(nums)):

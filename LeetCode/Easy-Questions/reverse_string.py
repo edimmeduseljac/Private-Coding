@@ -4,6 +4,7 @@ s = ["h", "e", "l", "l", "o"]
 # s.reverse()
 
 
+@staticmethod
 def reverseString():
     index = 0
     v = 1

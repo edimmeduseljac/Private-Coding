@@ -5,6 +5,7 @@ class Solution:
 
     global digits
 
+    @staticmethod
     def getNumbers():
         inputConsole = input("Enter the numbers to check: ")
 
@@ -20,6 +21,7 @@ class Solution:
 
     getNumbers()
 
+    @staticmethod
     def addOneToNumber():
         index = 0
         number = 0

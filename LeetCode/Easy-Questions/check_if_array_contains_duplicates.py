@@ -2,6 +2,7 @@ nums = []
 
 
 class Solution:
+    @staticmethod
     def getNumbers():
         inputConsole = input("Enter the numbers to check: ")
 
@@ -17,6 +18,7 @@ class Solution:
 
     getNumbers()
 
+    @staticmethod
     def checkIfDuplicates():
         index = 0
         v = 1

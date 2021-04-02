@@ -2,6 +2,7 @@ s = "A man, a plan, a canal: Panama"
 
 
 class Solution:
+    @staticmethod
     def validatePalindrome():
         cleanedS = s.replace(",", "").replace(" ", "").replace(":", "").lower()
         reversedCleanedS = cleanedS[::-1]

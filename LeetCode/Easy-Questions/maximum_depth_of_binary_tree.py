@@ -2,6 +2,7 @@ root = [3, 9, 20, None, None, 15, 7]
 
 
 class Solution:
+    @staticmethod
     def maximumDepthBinaryTree():
         index = 1
         maximum_depth = 0
