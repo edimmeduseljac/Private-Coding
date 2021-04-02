@@ -1,4 +1,4 @@
-nums = [3,3]
+nums = [3, 3]
 
 target = 6
 
@@ -7,11 +7,11 @@ output = []
 for i in enumerate(nums):
     if nums[index] + nums[index - 1] == target:
         output.append(nums.index(nums[index]))
-        output.append(nums.index(nums[index+1]))     
+        output.append(nums.index(nums[index + 1]))
         print()
         output.sort()
         break
-    else: 
+    else:
         index += 1
 print(output)
 

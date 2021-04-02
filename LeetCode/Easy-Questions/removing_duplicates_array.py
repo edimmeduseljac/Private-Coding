@@ -1,20 +1,25 @@
 a = []
 
+
 class Solution:
     def getInputAndConvert():
         inputConsole = input()
 
-        cleanedString = inputConsole.replace("[", " ").replace("]", " ").replace(",", " ")
+        cleanedString = (
+            inputConsole.replace("[", " ").replace("]", " ").replace(",", " ")
+        )
         splittedString = cleanedString.split()
-        
+
         x = 0
-        for x in range(len(splittedString)): 
+        for x in range(len(splittedString)):
             a.append(int(splittedString[x]))
-            x+=1
+            x += 1
 
     getInputAndConvert()
 
-    print("------------------------------------------------------------------------------")   
+    print(
+        "------------------------------------------------------------------------------"
+    )
 
     def sortInArray():
         print("Array:")
@@ -22,7 +27,7 @@ class Solution:
         a.sort()
 
         for i in range(len(a)):
-            if a[index] == a[index-1]: 
+            if a[index] == a[index - 1]:
                 a.remove(a[index])
             else:
                 index += 1
@@ -31,7 +36,9 @@ class Solution:
 
     sortInArray()
 
-    print("------------------------------------------------------------------------------")
+    print(
+        "------------------------------------------------------------------------------"
+    )
 
     def sortInSet():
         print("Set:")
@@ -46,4 +53,6 @@ class Solution:
 
     sortInSet()
 
-    print("------------------------------------------------------------------------------")
+    print(
+        "------------------------------------------------------------------------------"
+    )

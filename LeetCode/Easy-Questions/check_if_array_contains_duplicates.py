@@ -1,20 +1,23 @@
 nums = []
 
+
 class Solution:
     def getNumbers():
         inputConsole = input("Enter the numbers to check: ")
 
-        cleanedString = inputConsole.replace("[", " ").replace("]", " ").replace(",", " ")
+        cleanedString = (
+            inputConsole.replace("[", " ").replace("]", " ").replace(",", " ")
+        )
         splittedString = cleanedString.split()
-        
+
         x = 0
-        for x in range(len(splittedString)): 
+        for x in range(len(splittedString)):
             nums.append(int(splittedString[x]))
-            x+=1
-            
+            x += 1
+
     getNumbers()
-    
-    def checkIfDuplicates(): 
+
+    def checkIfDuplicates():
         index = 0
         v = 1
         duplicate = 0
@@ -22,11 +25,11 @@ class Solution:
             if v < len(nums):
                 if nums[index] == nums[index - v]:
                     duplicate = 1
-                else: 
+                else:
                     v += 1
         if duplicate == 1:
             print("true")
-        else: 
+        else:
             print("false")
 
     checkIfDuplicates()
